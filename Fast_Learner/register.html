@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="webpage.css">
+  <link rel="stylesheet" href="register.css">
+  <title>Register</title>
+</head>
+<body bgcolor="grey">
+  <ul>
+   <!-- <li><img id="img2" src="snail.png.png"></li> -->
+    <li ><a href="home.html">Home</a></li>
+    <li ><a href="news.html">News</a></li>
+    <li ><a href="textbook.html">Text Books</a></li>
+    <li ><a href="ref.html">Reference Materials</a></li>
+    <li ><a href="about.asp">About</a></li>
+  </ul>
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="gender">Gender</label>
+        </div>
+        <div class="col-75">
+          <input type="radio" name="gender" value="male"> Male   
+          <input type="radio" name="gender" value="female"> Female   
+          <input type="radio" name="gender" value="other"> Other
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="year">Year</label>
+        </div>
+        <div class="col-75">
+          <select id="year" name="Year">
+            <option value="first year">First Year</option>
+            <option value="second year">Second Year</option>
+            <option value="third year">Third Year</option>
+            <option value = "Fourth">Fourth Year</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="roll number">Roll Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="Roll Number" placeholder="your roll number">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="password">Password</label>
+        </div>
+        <div class="col-75">
+          <input type="password" name="Password" placeholder="atleast  1 uppercase, lowercase letter, 1 number and 1 special character">
+        </div>
+      </div>
+      <div class="row">
+        <div class="submit">
+          <input type="submit" value="Submit">   
+        </div>
+        <div class="login">
+          <button class="button"><a href="login.html">already a member ?</a></button>
+        </div>
+      </div>
+
+
+
+
+    <!--<form action="/action_page.php" method="post">
+
+      First name : 
+      <input type="text" name="firstname">                  
+      Last name :  
+      <input type="text" name="lastname"><br><br>
+      Roll Number : 
+      <input type="text" name="Roll Number"><br>
+      <p>Note: Roll number will be used as your user name </p><br><br>
+      Password : 
+      
+      <input type="password" name="password"><br>
+      <p>Note : Password must contain atleast one capital letter, one small letter, one number and one special character</p><br><br>
+      Gender : <br>
+      <input type="radio" name="gender" value="male" checked> Male   
+      <input type="radio" name="gender" value="female"> Female   
+      <input type="radio" name="gender" value="other"> Other<br><br>
+      Year:  
+      <select name = "dropdown">
+        <option value = "First" selected>First Year</option>
+        <option value = "Second">Second Year</option>
+        <option value = "Third">Third Year</option>
+        <option value = "Fourth">Fourth Year</option>
+      </select><br><br><br>
+      <input type="submit" value="Submit">   
+      <button class="button"><a href="login.html">already a member ?</a></button>
+    </form>-->
+  </div>
+</body bgcolor="black">
+</html>
